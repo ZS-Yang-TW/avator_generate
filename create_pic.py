@@ -2,7 +2,7 @@ import os
 import openai
 import requests
 from PIL import Image
-openai.api_key = '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'
+openai.api_key = "YOUR_API_KEY"
 
 output_folder = "output"
 if not os.path.exists(output_folder):
